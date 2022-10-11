@@ -302,3 +302,18 @@
     color: var(--black);
   }
   /* Menu end */
+
+  /* Gallery starts */
+.gallery .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 33rem);
+    gap: 1.5rem;
+    justify-content: center;
+  }
+  
+  .gallery .box-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  /* Gallery ends */
