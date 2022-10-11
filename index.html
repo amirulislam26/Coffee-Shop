@@ -220,7 +220,54 @@
       </div>
   </div>
       <!-- team section ends -->
-      
+
+      <!-- contact section start -->
+      <section class="contact" id="contact">
+        <div class="heading">
+          <img src="images/heading-img.png" alt="" />
+          <h3>Contact Us</h3>
+        </div>
+  
+        <div class="row">
+          <div class="image">
+            <img src="images/contact-img.svg" alt="" />
+          </div>
+  
+          <form action="" method="post">
+            <h3>Book a Table</h3>
+            <input
+              type="text"
+              name="name"
+              required
+              class="box"
+              maxlength="20"
+              placeholder="enter your name"
+            />
+            <input
+              type="number"
+              name="number"
+              required
+              class="box"
+              maxlength="20"
+              placeholder="enter your number"
+              min="0"
+              max="9999999999"
+            />
+            <input
+              type="number"
+              name="guests"
+              required
+              class="box"
+              maxlength="20"
+              placeholder="how many guests"
+              min="0"
+              max="99"
+            />
+            <input type="submit" name="send" value="send message" class="btn" />
+          </form>
+        </div>
+      </section>
+      <!-- contact section ends -->
     <script src="js/index.js"></script>
 </body>
 </html>
